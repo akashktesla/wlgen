@@ -10,13 +10,13 @@ def wlgen(user_path, save_path,n):
     with open(user_path,"r") as f:
         user_description = f.read()
 
-    sprompt = f"Always generate passowrds based on user description Example: assistant: user@132, assistant: user@2002, user description: {user_description}"
+    sprompt = f"Always generate passowrds based on user description Example: bot: user@132, bot: user@2002, user description: {user_description}"
     history = [ {"role": "system", "content": sprompt} ]
 
     word_list = ""
 
     for i in range(0,n):
-      history.append( {"role": "user", "content": "generate a new password"})
+      history.append( {"role": "user", "content": "generate"})
       # print(history)
 
       completion = client.chat.completions.create(

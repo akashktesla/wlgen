@@ -1,0 +1,10 @@
+Name: akash
+Initial: K
+Father name: kolanchi p
+Mother's name: selvarani p
+DOB: 26/05/2002
+Hobby: AI
+Favorite person: Nikola tesla
+Favorite number: 2,3692
+target website: google
+password length: 10 characters
